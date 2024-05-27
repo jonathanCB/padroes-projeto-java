@@ -7,6 +7,8 @@ import br.com.cod3r.factory.app.dbadapter.db.PostgresDB;
 public class Client {
 
 	public static void main(String[] args) {
+		//Factory => Lida com a construção de um objeto, no nosso caso, o objeto DB.
+
 		DB oracle = new OracleDB();
 		DB postgresql = new PostgresDB();
 

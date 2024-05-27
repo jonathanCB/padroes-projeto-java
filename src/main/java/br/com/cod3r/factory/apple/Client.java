@@ -8,6 +8,8 @@ import br.com.cod3r.factory.apple.model.IPhone;
 public class Client {
 	
 	public static void main(String[] args) {
+		//Factory => Lida com a construção de um objeto, no nosso caso, o objeto IPhone.
+
 		/***** Forma complexa - Factory para cada versão de IPhone *****/
 		// IPhone11ProFactory iPhone11Factory = new IPhone11ProFactory();
 		// IPhoneXFactory iPhoneXFactory = new IPhoneXFactory();
