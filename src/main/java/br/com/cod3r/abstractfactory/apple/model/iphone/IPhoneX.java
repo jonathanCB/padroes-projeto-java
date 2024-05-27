@@ -10,7 +10,7 @@ public class IPhoneX extends IPhone {
 
 	@Override
 	public void getHardware() {
-		System.out.println("Hardware list");
+		System.out.println("Hardware list - IPhone X");
 		System.out.println("\t- 5.8in Screen");
 		System.out.println("\t- A11 Chipset");
 		System.out.println("\t- 3Gb RAM");
