@@ -1,7 +1,7 @@
-package br.com.cod3r.singleton.connectionPool;
+package br.com.cod3r.singleton.connectionPool.before;
 
-import br.com.cod3r.singleton.connectionPool.conn.Connection;
-import br.com.cod3r.singleton.connectionPool.conn.ConnectionPool;
+import br.com.cod3r.singleton.connectionPool.before.conn.Connection;
+import br.com.cod3r.singleton.connectionPool.before.conn.ConnectionPool;
 
 public class Client {
 	public static void doQuery1() {
@@ -29,5 +29,7 @@ public class Client {
 		doQuery1();
 		doQuery2();
 		doQuery3();
+		
+		//3 connections was made, even with 2 connections limit
 	}
 }
