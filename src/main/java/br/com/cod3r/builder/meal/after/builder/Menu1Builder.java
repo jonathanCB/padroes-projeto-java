@@ -1,4 +1,4 @@
-package br.com.cod3r.builder.meal.builder;
+package br.com.cod3r.builder.meal.after.builder;
 
 public class Menu1Builder extends FastFoodMealBuilder {
 	@Override

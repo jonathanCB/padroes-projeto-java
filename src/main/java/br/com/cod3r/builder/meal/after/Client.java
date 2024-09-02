@@ -1,8 +1,7 @@
-package br.com.cod3r.builder.meal;
+package br.com.cod3r.builder.meal.after;
 
-import br.com.cod3r.builder.meal.builder.FatMealBuilder;
-import br.com.cod3r.builder.meal.builder.Menu1Builder;
-import br.com.cod3r.builder.meal.director.MealDirector;
+import br.com.cod3r.builder.meal.after.builder.Menu1Builder;
+import br.com.cod3r.builder.meal.after.director.MealDirector;
 
 public class Client {
 	

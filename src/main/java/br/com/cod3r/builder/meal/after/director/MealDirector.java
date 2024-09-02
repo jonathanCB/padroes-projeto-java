@@ -1,7 +1,7 @@
-package br.com.cod3r.builder.meal.director;
+package br.com.cod3r.builder.meal.after.director;
 
-import br.com.cod3r.builder.meal.builder.FastFoodMealBuilder;
-import br.com.cod3r.builder.meal.model.FastFoodMeal;
+import br.com.cod3r.builder.meal.after.builder.FastFoodMealBuilder;
+import br.com.cod3r.builder.meal.after.model.FastFoodMeal;
 
 public class MealDirector {
     private FastFoodMealBuilder builder;
