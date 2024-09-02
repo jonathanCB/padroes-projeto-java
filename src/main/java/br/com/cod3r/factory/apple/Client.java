@@ -31,8 +31,6 @@ public class Client {
 		// iPhone11Factory.orderIPhone("standard");
 
 		/***** Forma simples - Uma factory para qualquer IPhone *****/
-
-
 		System.out.println("### Ordering an iPhone X");
 		IPhone device = IPhoneFactory.orderIPhone("X", "highEnd");
 		System.out.println(device);
